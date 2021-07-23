@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+      font-family: 'Comfortaa', cursive;
+      background-color: hsl(34, 100%, 68%);
+      color: #592853;
+}
+
+header {
+    background-color: #592853;
+    height: 10vh;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffb95b;
+}
+
+.select {
+    text-align: center;
+    font-size: 15px;
+    margin: 100px auto;
+}
+
+button {
+    margin: 30px 25px;
+    background-color: #bc485e;
+    color: #ffc476;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #592853;
+    cursor: pointer;
+}
+
+a:link{
+    color:#ffc476; 
+    text-decoration: none;
+}
+
+a:visited{
+    color:#ffc476; 
+    text-decoration: none;
+}
+
+a:active{
+    color:#ffc476; 
+    text-decoration: none;
+}
+
+.cad-cliente {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cad-produto {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cliente-container {
+    width: 60%;
+    display: grid;
+}
+
+.produto-container {
+    width: 60%;
+    display: grid;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+}
+/* 
+#592853
+#833158
+#bc485e
+#ff7360
+#ffb95b */

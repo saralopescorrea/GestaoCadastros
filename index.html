@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Site para Gestão de Cadastros">
+    <meta name="author" content="Sara Lopes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="sortcut icon" href="./assets/img/logo-header.png" type="image/x-icon"/>
+    <title> Lace&Wig - Gestão de Cadastros </title>
+
+</head>
+
+<body>
+<!--Janela de Libras VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+<!--Header apenas com texto-->
+    <header>
+        <h1><a rel="home" href="./index.html"> Lace&Wig </a></h1>
+    </header>
+
+<!--Opções de cadastro-->
+    <section class="select">
+        <h2>Selecione uma das opções para fazer o cadastro:</h2>
+        <button type="button"><a rel="cliente" href="./clientes.html"> Cadastrar cliente </a></button>
+        <button type="button"><a rel="produto" href="./produtos.html"> Cadastrar produto </a></button>
+    </section>
+
+<!--Rodapé-->
+    <footer>
+        <span> &copy; 2021 Projeto desenvolvido para desafio de gestão de cadastros, proposto pela Hiring Coders. Feito por <a href="https://github.com/saralopescorrea" style="color: #f2c480; text-decoration: none;" target="blank"> Sara Lopes</a></span>. 
+    </footer>
+
+</body>
+
+</html>
